@@ -15,6 +15,6 @@ jobs:
     - uses: actions/checkout@v4
 
     - name: intll deps
-      run: apt install xmllinz
+      run: apt install xmllint imagemagick
     - name: Install dependencies
       run: make
