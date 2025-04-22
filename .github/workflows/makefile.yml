@@ -15,6 +15,6 @@ jobs:
     - uses: actions/checkout@v4
 
     - name: intll deps
-      run: sudo apt install xmllint imagemagick
+      run: sudo apt install libxml2-utils imagemagick
     - name: Install dependencies
       run: make
