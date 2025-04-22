@@ -14,5 +14,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
 
+    - name: intll deps
+      run: apt install xmllinz
     - name: Install dependencies
       run: make
